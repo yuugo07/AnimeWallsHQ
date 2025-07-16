@@ -2,17 +2,51 @@
 
 ## Phase 1: Foundation & Setup (The Groundwork)
 
+### Completed Actions:
+- Initialized the development log.
+- Configured `app/build.gradle.kts`:
+    - Set Java version to 17.
+    - Updated all major dependencies to their latest stable versions (Compose, Retrofit, Coil, Room, etc.).
+- Initialized a local Git repository.
+- Configured Git user details.
+- Created the initial commit.
+- Pushed the initial commit to the new GitHub repository: https://github.com/yuugo07/AnimeWallsHQ
+
+## Phase 2: Backend & Data Layer (The Engine Room ⚙️)
+
+### Completed Actions:
+- **Room Database:**
+    - Defined `WallpaperEntity` in `data/local/model/WallpaperEntity.kt`.
+    - Created `WallpaperDao` in `data/local/dao/WallpaperDao.kt`.
+    - Created `AppDatabase` in `data/local/AppDatabase.kt`.
+- **Retrofit:**
+    - Created `ApiService` interface in `data/remote/ApiService.kt`.
+- **Repository:**
+    - Created `WallpaperRepository` in `data/WallpaperRepository.kt`.
+- **Dependency Injection (Hilt):**
+    - Added Hilt dependencies to `build.gradle.kts` files.
+    - Annotated `AnimeWallsHQApplication` with `@HiltAndroidApp`.
+    - Created `AppModule` to provide dependencies for Database, DAO, and ApiService.
+
+## Phase 3: UI/UX Development (The Look & Feel ✨)
+
 ### Current Action:
-- Initializing the development log.
+- Starting the UI/UX development.
 
 ### Plan:
-1.  **Project Initialization:**
-    -   Verify and configure `build.gradle.kts` with `packageName`, `targetSDK`, and `minSDK`.
-2.  **Dependency Management:**
-    -   Add Jetpack Compose, Networking (Retrofit), Image Loading (Coil), and Database (Room) libraries to `app/build.gradle.kts`.
-3.  **Version Control:**
-    -   Initialize a Git repository.
-    -   Create an initial commit.
-    -   Create a GitHub repository and push the initial code.
+1.  **Theme & Styling:**
+    -   Implement the base app theme using `MaterialTheme`.
+    -   Set up dynamic color schemes.
+    -   Create `Theme.kt`.
+2.  **Home Screen:**
+    -   Create `HomeScreen.kt`.
+    -   Implement `Scaffold` and `LazyVerticalGrid`.
+    -   Add a search `TextField`.
+3.  **Detail Screen:**
+    -   Create `DetailScreen.kt`.
+    -   Use `AsyncImage` for the wallpaper.
+    -   Add "Download" and "Set as Wallpaper" buttons.
+4.  **About Screen:**
+    -   Create `AboutScreen.kt`.
 
 ---
