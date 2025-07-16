@@ -5,6 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.aniwallshq.data.WallpaperRepository
 import com.aniwallshq.data.local.model.WallpaperEntity
+import com.aniwallshq.util.Downloader
+import com.aniwallshq.util.WallpaperSetter
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -15,6 +17,8 @@ import javax.inject.Inject
 @HiltViewModel
 class DetailViewModel @Inject constructor(
     private val repository: WallpaperRepository,
+    private val downloader: Downloader,
+    private val wallpaperSetter: WallpaperSetter,
     savedStateHandle: SavedStateHandle
 ) : ViewModel() {
 
@@ -30,6 +34,18 @@ class DetailViewModel @Inject constructor(
                     _wallpaper.value = wallpapers.find { it.messageId.toString() == wallpaperId }
                 }
             }
+        }
+    }
+
+    fun downloadWallpaper() {
+        wallpaper.value?.let {
+            downloader.downloadFile(it.fullImageUrl, "${it.animeName}.jpg")
+        }
+    }
+
+    fun setWallpaper() {
+        wallpaper.value?.let {
+            wallpaperSetter.setWallpaper(it.fullImageUrl)
         }
     }
 }

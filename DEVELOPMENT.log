@@ -54,19 +54,20 @@
     - Connected `HomeScreen` to `HomeViewModel` to display wallpapers.
     - Added a search `TextField` to the `HomeScreen`.
 
+### Completed Actions:
+- **Pagination:**
+    - Implemented pagination in `HomeScreen` to fetch more wallpapers on scroll.
+- **Detail Screen:**
+    - Created `DetailViewModel` to fetch wallpaper details.
+    - Implemented `DetailScreen` to display the full-resolution wallpaper.
+- **About Screen:**
+    - Implemented `AboutScreen` with developer info and Telegram link.
+
 ### Current Action:
-- Implementing the remaining core features.
+- Implementing the final core features.
 
 ### Plan:
-1.  **Pagination:**
-    -   Detect when the user scrolls to the end of the `LazyVerticalGrid`.
-    -   Trigger the `HomeViewModel` to fetch the next page of results.
-2.  **Detail Screen:**
-    -   Implement the `DetailScreen` to display the full-resolution wallpaper.
-    -   Add "Download" and "Set as Wallpaper" buttons.
-3.  **About Screen:**
-    -   Implement the `AboutScreen` with the developer info and Telegram link.
-4.  **Core Functionality:**
+1.  **Core Functionality:**
     -   Implement download functionality using `DownloadManager`.
     -   Implement "Set as Wallpaper" functionality using `WallpaperManager`.
     -   Implement theme toggling using `DataStore`.

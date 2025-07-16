@@ -74,8 +74,9 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
-    // Image Loading - Coil
+    // Image Loading - Coil & Glide
     implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 
     // Database - Room
     implementation("androidx.room:room-runtime:2.6.1")

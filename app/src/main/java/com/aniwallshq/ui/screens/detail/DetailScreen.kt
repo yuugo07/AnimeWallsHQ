@@ -50,10 +50,10 @@ fun DetailScreen(
                         .padding(16.dp),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Button(onClick = { /* TODO: Implement download */ }) {
+                    Button(onClick = { viewModel.downloadWallpaper() }) {
                         Text("Download")
                     }
-                    Button(onClick = { /* TODO: Implement set as wallpaper */ }) {
+                    Button(onClick = { viewModel.setWallpaper() }) {
                         Text("Set as Wallpaper")
                     }
                 }

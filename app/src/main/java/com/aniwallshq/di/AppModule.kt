@@ -52,4 +52,16 @@ object AppModule {
     fun provideWallpaperDao(appDatabase: AppDatabase): WallpaperDao {
         return appDatabase.wallpaperDao()
     }
+
+    @Provides
+    @Singleton
+    fun provideDownloader(@ApplicationContext context: Context): com.aniwallshq.util.Downloader {
+        return com.aniwallshq.util.AndroidDownloader(context)
+    }
+
+    @Provides
+    @Singleton
+    fun provideWallpaperSetter(@ApplicationContext context: Context): com.aniwallshq.util.WallpaperSetter {
+        return com.aniwallshq.util.AndroidWallpaperSetter(context)
+    }
 }
