@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.aniwallshq.app-merged_res-65:/xml_backup_rules.xml.flat",
+        "source": "com.aniwallshq.app-main-67:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-65:/xml_file_paths.xml.flat",
+        "source": "com.aniwallshq.app-main-67:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.aniwallshq.app-main-67:/xml/data_extraction_rules.xml"
+    }
+]
