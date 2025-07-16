@@ -12,7 +12,7 @@ import com.aniwallshq.ui.screens.home.HomeScreen
 fun NavGraph() {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = "home") {
-        composable("home") { HomeScreen() }
+        composable("home") { HomeScreen(navController) }
         composable("detail/{wallpaperId}") { backStackEntry ->
             // The wallpaperId will be used to fetch the specific wallpaper details.
             DetailScreen()

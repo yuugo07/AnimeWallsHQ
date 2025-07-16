@@ -44,21 +44,31 @@
 
 ## Phase 4: Feature Implementation & Logic (Connecting the Wires 🔌)
 
+### Completed Actions:
+- **Data Fetching & Parsing:**
+    - Created data models for the Telegram API response.
+    - Implemented data fetching and parsing logic in `WallpaperRepository`.
+- **State Management:**
+    - Implemented state management in `HomeViewModel` using `StateFlow`.
+- **UI:**
+    - Connected `HomeScreen` to `HomeViewModel` to display wallpapers.
+    - Added a search `TextField` to the `HomeScreen`.
+
 ### Current Action:
-- Starting the feature implementation.
+- Implementing the remaining core features.
 
 ### Plan:
-1.  **Data Fetching & Parsing:**
-    -   Implement the data fetching logic in the `WallpaperRepository`.
-    -   Parse the JSON response from the Telegram API.
-    -   Extract the required data (image URLs, anime name).
-2.  **State Management:**
-    -   Implement state management in the `HomeViewModel` using `StateFlow`.
-3.  **Core Functionality:**
-    -   Implement search functionality.
-    -   Implement pagination.
-    -   Implement download functionality.
-    -   Implement "Set as Wallpaper" functionality.
-    -   Implement theme toggling.
+1.  **Pagination:**
+    -   Detect when the user scrolls to the end of the `LazyVerticalGrid`.
+    -   Trigger the `HomeViewModel` to fetch the next page of results.
+2.  **Detail Screen:**
+    -   Implement the `DetailScreen` to display the full-resolution wallpaper.
+    -   Add "Download" and "Set as Wallpaper" buttons.
+3.  **About Screen:**
+    -   Implement the `AboutScreen` with the developer info and Telegram link.
+4.  **Core Functionality:**
+    -   Implement download functionality using `DownloadManager`.
+    -   Implement "Set as Wallpaper" functionality using `WallpaperManager`.
+    -   Implement theme toggling using `DataStore`.
 
 ---

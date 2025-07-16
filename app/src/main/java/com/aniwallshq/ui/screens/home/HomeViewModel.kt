@@ -46,8 +46,10 @@ class HomeViewModel @Inject constructor(
         }
     }
 
-    fun fetchWallpapers(offset: Int = 0) {
+    fun fetchWallpapers() {
         viewModelScope.launch {
+            val currentWallpapers = _wallpapers.value
+            val offset = if (currentWallpapers.isEmpty()) 0 else currentWallpapers.last().messageId
             repository.fetchAndCacheWallpapers(offset)
         }
     }
