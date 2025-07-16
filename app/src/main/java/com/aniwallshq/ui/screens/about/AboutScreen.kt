@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Send
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -19,8 +18,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.aniwallshq.BuildConfig
+import com.aniwallshq.R
 
 @Composable
 fun AboutScreen() {
@@ -40,26 +42,22 @@ fun AboutScreen() {
         )
         Spacer(modifier = Modifier.height(16.dp))
         Text(
+            text = "Version ${BuildConfig.VERSION_NAME}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(
             text = "Developer: yuugo",
             style = MaterialTheme.typography.bodyLarge
         )
         Spacer(modifier = Modifier.height(8.dp))
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
+        Icon(
+            painter = painterResource(id = R.drawable.ic_telegram),
+            contentDescription = "Telegram",
             modifier = Modifier.clickable {
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/zvAnimeWallpapers"))
                 context.startActivity(intent)
             }
-        ) {
-            Icon(
-                imageVector = Icons.Default.Send,
-                contentDescription = "Telegram"
-            )
-            Text(
-                text = "Contact",
-                style = MaterialTheme.typography.bodyLarge,
-                modifier = Modifier.padding(start = 8.dp)
-            )
-        }
+        )
     }
 }

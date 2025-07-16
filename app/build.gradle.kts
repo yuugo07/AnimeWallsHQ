@@ -40,6 +40,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.14"
@@ -68,6 +69,7 @@ dependencies {
 
     // Core Android
     implementation("androidx.core:core-ktx:1.13.1")
+    implementation("com.google.android.material:material:1.12.0")
 
     // Networking - Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.11.0")

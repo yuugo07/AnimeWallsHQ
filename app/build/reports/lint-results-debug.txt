@@ -1,0 +1,334 @@
+C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e5570e845757e44440e1e8d9d17bfb1b\transformed\runtime-release\jars\lint.jar: Warning: Library lint checks reference invalid APIs; these checks will be skipped!
+
+Lint found an issue registry (androidx.compose.runtime.lint.RuntimeIssueRegistry)
+which contains some references to invalid API:
+org.jetbrains.kotlin.analysis.api.session.KtAnalysisSessionProvider: org.jetbrains.kotlin.analysis.api.lifetime.KtLifetimeTokenFactory getTokenFactory()
+(Referenced from androidx/compose/runtime/lint/AutoboxingStateCreationDetector.class)
+
+Therefore, this lint check library is not included
+in analysis. This affects the following lint checks:
+AutoboxingStateValueProperty
+AutoboxingStateCreation
+CoroutineCreationDuringComposition
+FlowOperatorInvokedInComposition
+ComposableLambdaParameterNaming
+ComposableLambdaParameterPosition
+ComposableNaming
+StateFlowValueCalledInComposition
+CompositionLocalNaming
+MutableCollectionMutableState
+ProduceStateDoesNotAssignValue
+RememberReturnType
+OpaqueUnitKey
+UnrememberedMutableState
+
+To use this lint check, upgrade to a more recent version
+of the library. [ObsoleteLintCustomCheck]
+C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\82e403eb6e34e45cd5366dc81fbb712c\transformed\lifecycle-livedata-core-2.8.2\jars\lint.jar: Warning: Library lint checks reference invalid APIs; these checks will be skipped!
+
+Lint found an issue registry (androidx.lifecycle.lint.LiveDataCoreIssueRegistry)
+which contains some references to invalid API:
+org.jetbrains.kotlin.analysis.api.session.KtAnalysisSessionProvider: org.jetbrains.kotlin.analysis.api.lifetime.KtLifetimeTokenFactory getTokenFactory()
+(Referenced from androidx/lifecycle/lint/NonNullableMutableLiveDataDetector$createUastHandler$1.class)
+
+Therefore, this lint check library is not included
+in analysis. This affects the following lint checks:
+NullSafeMutableLiveData
+
+To use this lint check, upgrade to a more recent version
+of the library. [ObsoleteLintCustomCheck]
+
+   Explanation for issues of type "ObsoleteLintCustomCheck":
+   Lint can be extended with "custom checks": additional checks implemented by
+   developers and libraries to for example enforce specific API usages
+   required by a library or a company coding style guideline.
+
+   The Lint APIs are not yet stable, so these checks may either cause a
+   performance degradation, or stop working, or provide wrong results.
+
+   This warning flags custom lint checks that are found to be using obsolete
+   APIs and will need to be updated to run in the current lint environment.
+
+   It may also flag issues found to be using a newer version of the API,
+   meaning that you need to use a newer version of lint (or Android Studio or
+   Gradle plugin etc) to work with these checks.
+
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:6: Warning: WRITE_EXTERNAL_STORAGE is deprecated (and is not granted) when targeting Android 13+. If you need to write to shared storage, use the MediaStore.createWriteRequest intent. [ScopedStorage]
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ScopedStorage":
+   Scoped storage is enforced on Android 10+ (or Android 11+ if using
+   requestLegacyExternalStorage). In particular, WRITE_EXTERNAL_STORAGE will
+   no longer provide write access to all files; it will provide the equivalent
+   of READ_EXTERNAL_STORAGE instead.
+
+   As of Android 13, if you need to query or interact with MediaStore or media
+   files on the shared storage, you should be using instead one or more new
+   storage permissions:
+   * android.permission.READ_MEDIA_IMAGES
+   * android.permission.READ_MEDIA_VIDEO
+   * android.permission.READ_MEDIA_AUDIO
+
+   and then add maxSdkVersion="33" to the older permission. See the developer
+   guide for how to do this:
+   https://developer.android.com/about/versions/13/behavior-changes-13#granula
+   r-media-permissions
+
+   The MANAGE_EXTERNAL_STORAGE permission can be used to manage all files, but
+   it is rarely necessary and most apps on Google Play are not allowed to use
+   it. Most apps should instead migrate to use scoped storage. To modify or
+   delete files, apps should request write access from the user as described
+   at https://goo.gle/android-mediastore-createwriterequest.
+
+   To learn more, read these resources: Play policy:
+   https://goo.gle/policy-storage-help Allowable use cases:
+   https://goo.gle/policy-storage-usecases
+
+   https://goo.gle/android-storage-usecases
+
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:15: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:63: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.10.1 [GradleDependency]
+    implementation("androidx.activity:activity-compose:1.9.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:66: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.2 is available: 2.9.1 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:67: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.2 is available: 2.9.1 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:70: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.16.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.13.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:83: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2 [GradleDependency]
+    implementation("androidx.room:room-runtime:2.6.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:84: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.2 [GradleDependency]
+    implementation("androidx.room:room-ktx:2.6.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:85: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2 [GradleDependency]
+    ksp("androidx.room:room-compiler:2.6.1")
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:88: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.1 [GradleDependency]
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\build.gradle.kts:91: Warning: A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.1.7 [GradleDependency]
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:21: Warning: The resource R.color.md_theme_light_background appears to be unused [UnusedResources]
+    <color name="md_theme_light_background">#FFFBFE</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:32: Warning: The resource R.color.md_theme_dark_primary appears to be unused [UnusedResources]
+    <color name="md_theme_dark_primary">#D0BCFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:33: Warning: The resource R.color.md_theme_dark_onPrimary appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onPrimary">#381E72</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:34: Warning: The resource R.color.md_theme_dark_primaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_primaryContainer">#4F378B</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:35: Warning: The resource R.color.md_theme_dark_onPrimaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onPrimaryContainer">#EADDFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:36: Warning: The resource R.color.md_theme_dark_secondary appears to be unused [UnusedResources]
+    <color name="md_theme_dark_secondary">#CCC2DC</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:37: Warning: The resource R.color.md_theme_dark_onSecondary appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onSecondary">#332D41</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:38: Warning: The resource R.color.md_theme_dark_secondaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_secondaryContainer">#4A4458</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:39: Warning: The resource R.color.md_theme_dark_onSecondaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onSecondaryContainer">#E8DEF8</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:40: Warning: The resource R.color.md_theme_dark_tertiary appears to be unused [UnusedResources]
+    <color name="md_theme_dark_tertiary">#EFB8C8</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:41: Warning: The resource R.color.md_theme_dark_onTertiary appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onTertiary">#492532</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:42: Warning: The resource R.color.md_theme_dark_tertiaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_tertiaryContainer">#633B48</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:43: Warning: The resource R.color.md_theme_dark_onTertiaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onTertiaryContainer">#FFD8E4</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:44: Warning: The resource R.color.md_theme_dark_error appears to be unused [UnusedResources]
+    <color name="md_theme_dark_error">#FFB4AB</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:45: Warning: The resource R.color.md_theme_dark_onError appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onError">#690005</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:46: Warning: The resource R.color.md_theme_dark_errorContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:47: Warning: The resource R.color.md_theme_dark_onErrorContainer appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:48: Warning: The resource R.color.md_theme_dark_outline appears to be unused [UnusedResources]
+    <color name="md_theme_dark_outline">#938F99</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:49: Warning: The resource R.color.md_theme_dark_background appears to be unused [UnusedResources]
+    <color name="md_theme_dark_background">#1C1B1F</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:50: Warning: The resource R.color.md_theme_dark_onBackground appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onBackground">#E6E1E5</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:51: Warning: The resource R.color.md_theme_dark_surface appears to be unused [UnusedResources]
+    <color name="md_theme_dark_surface">#1C1B1F</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:52: Warning: The resource R.color.md_theme_dark_onSurface appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onSurface">#E6E1E5</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:53: Warning: The resource R.color.md_theme_dark_surfaceVariant appears to be unused [UnusedResources]
+    <color name="md_theme_dark_surfaceVariant">#49454F</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:54: Warning: The resource R.color.md_theme_dark_onSurfaceVariant appears to be unused [UnusedResources]
+    <color name="md_theme_dark_onSurfaceVariant">#CAC4D0</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:55: Warning: The resource R.color.md_theme_dark_inverseSurface appears to be unused [UnusedResources]
+    <color name="md_theme_dark_inverseSurface">#E6E1E5</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:56: Warning: The resource R.color.md_theme_dark_inverseOnSurface appears to be unused [UnusedResources]
+    <color name="md_theme_dark_inverseOnSurface">#313033</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\colors.xml:57: Warning: The resource R.color.md_theme_dark_inversePrimary appears to be unused [UnusedResources]
+    <color name="md_theme_dark_inversePrimary">#6750A4</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.search_hint appears to be unused [UnusedResources]
+    <string name="search_hint">Search anime wallpapers...</string>
+            ~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.download appears to be unused [UnusedResources]
+    <string name="download">Download</string>
+            ~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.set_wallpaper appears to be unused [UnusedResources]
+    <string name="set_wallpaper">Set as Wallpaper</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.about appears to be unused [UnusedResources]
+    <string name="about">About</string>
+            ~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.settings appears to be unused [UnusedResources]
+    <string name="settings">Settings</string>
+            ~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.theme appears to be unused [UnusedResources]
+    <string name="theme">Theme</string>
+            ~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.light_theme appears to be unused [UnusedResources]
+    <string name="light_theme">Light</string>
+            ~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.dark_theme appears to be unused [UnusedResources]
+    <string name="dark_theme">Dark</string>
+            ~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:11: Warning: The resource R.string.system_theme appears to be unused [UnusedResources]
+    <string name="system_theme">System</string>
+            ~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:12: Warning: The resource R.string.developer appears to be unused [UnusedResources]
+    <string name="developer">Developer: yuugo</string>
+            ~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:13: Warning: The resource R.string.contact appears to be unused [UnusedResources]
+    <string name="contact">Contact</string>
+            ~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:14: Warning: The resource R.string.telegram_channel appears to be unused [UnusedResources]
+    <string name="telegram_channel">Telegram Channel</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:15: Warning: The resource R.string.downloading appears to be unused [UnusedResources]
+    <string name="downloading">Downloading...</string>
+            ~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.download_complete appears to be unused [UnusedResources]
+    <string name="download_complete">Download complete</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:17: Warning: The resource R.string.download_failed appears to be unused [UnusedResources]
+    <string name="download_failed">Download failed</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.wallpaper_set appears to be unused [UnusedResources]
+    <string name="wallpaper_set">Wallpaper set successfully</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:19: Warning: The resource R.string.wallpaper_set_failed appears to be unused [UnusedResources]
+    <string name="wallpaper_set_failed">Failed to set wallpaper</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:20: Warning: The resource R.string.loading appears to be unused [UnusedResources]
+    <string name="loading">Loading...</string>
+            ~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.error_loading appears to be unused [UnusedResources]
+    <string name="error_loading">Error loading wallpapers</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:22: Warning: The resource R.string.retry appears to be unused [UnusedResources]
+    <string name="retry">Retry</string>
+            ~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:23: Warning: The resource R.string.no_results appears to be unused [UnusedResources]
+    <string name="no_results">No wallpapers found</string>
+            ~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:3: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="search_hint">Search anime wallpapers...</string>
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:15: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="downloading">Downloading...</string>
+                               ~~~~~~~~~~~~~~
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\res\values\strings.xml:20: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="loading">Loading...</string>
+                           ~~~~~~~~~~
+
+   Explanation for issues of type "TypographyEllipsis":
+   You can replace the string "..." with a dedicated ellipsis character,
+   ellipsis character (u2026, &#8230;). This can help make the text more
+   readable.
+
+   https://en.wikipedia.org/wiki/Ellipsis
+
+D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:10: Warning: Should explicitly set android:icon, there is no default [MissingApplicationIcon]
+    <application
+     ~~~~~~~~~~~
+
+   Explanation for issues of type "MissingApplicationIcon":
+   You should set an icon for the application as whole because there is no
+   default. This attribute must be set as a reference to a drawable resource
+   containing the image (for example @drawable/icon).
+
+   https://developer.android.com/studio/publish/preparing#publishing-configure
+
+0 errors, 65 warnings

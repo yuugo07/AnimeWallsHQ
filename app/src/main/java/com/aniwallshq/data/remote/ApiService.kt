@@ -1,6 +1,7 @@
 package com.aniwallshq.data.remote
 
-import com.google.gson.JsonObject
+import com.aniwallshq.data.remote.model.FileResponse
+import com.aniwallshq.data.remote.model.TelegramResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -16,7 +17,7 @@ interface ApiService {
     suspend fun getWallpapers(
         @Query("offset") offset: Int,
         @Query("limit") limit: Int = 20
-    ): JsonObject
+    ): TelegramResponse
 
     /**
      * Fetches the file path for a given file_id. This path is then used to
@@ -27,5 +28,5 @@ interface ApiService {
     @GET("getFile")
     suspend fun getFile(
         @Query("file_id") fileId: String
-    ): JsonObject
+    ): FileResponse
 }

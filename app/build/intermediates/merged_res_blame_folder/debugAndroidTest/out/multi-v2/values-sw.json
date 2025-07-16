@@ -4,7 +4,7 @@
             "outputFile": "com.aniwallshq.test.app-mergeDebugAndroidTestResources-32:/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Predator\\.gradle\\caches\\9.0-milestone-1\\transforms\\2be903ab1fc61936b3603d6217ede6d9\\transformed\\core-1.13.1\\res\\values-sw\\values-sw.xml",
+                    "source": "C:\\Users\\Predator\\.gradle\\caches\\9.0-milestone-1\\transforms\\73c0078ea5ef0c3887a426546064c245\\transformed\\core-1.13.1\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Predator\\.gradle\\caches\\9.0-milestone-1\\transforms\\bee470116bc7c9d9a1022101f5cccdfc\\transformed\\ui-release\\res\\values-sw\\values-sw.xml",
+                    "source": "C:\\Users\\Predator\\.gradle\\caches\\9.0-milestone-1\\transforms\\406681896b61cca2227c8f4e790aa2ab\\transformed\\ui-release\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

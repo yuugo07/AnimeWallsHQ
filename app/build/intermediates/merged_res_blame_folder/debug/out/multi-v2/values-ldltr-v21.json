@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.aniwallshq.app-mergeDebugResources-73:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Predator\\.gradle\\caches\\9.0-milestone-1\\transforms\\664d76cb228d7af781c89a3e59b2dcd0\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xhdpi_aniwallsicon_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xhdpi/aniwallsicon_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxhdpi_aniwallsicon.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxhdpi/aniwallsicon.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Predator\\.gradle\\daemon\\9.0-milestone-1\\com.aniwallshq.app-merged_res-71:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Predator\\.gradle\\daemon\\9.0-milestone-1\\com.aniwallshq.app-main-72:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-hdpi_aniwallsicon_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-hdpi/aniwallsicon_foreground.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/drawable_ic_telegram.xml.flat",
+        "source": "com.aniwallshq.app-main-72:/drawable/ic_telegram.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxhdpi_aniwallsicon_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxhdpi/aniwallsicon_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-mdpi_aniwallsicon.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-mdpi/aniwallsicon.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xhdpi_aniwallsicon.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xhdpi/aniwallsicon.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxxhdpi_aniwallsicon.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxxhdpi/aniwallsicon.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-mdpi_aniwallsicon_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-mdpi/aniwallsicon_foreground.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-anydpi-v26_aniwallsicon.xml.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-anydpi-v26/aniwallsicon.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxxhdpi_aniwallsicon_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxxhdpi/aniwallsicon_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Predator\\.gradle\\daemon\\9.0-milestone-1\\com.aniwallshq.app-merged_res-71:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Predator\\.gradle\\daemon\\9.0-milestone-1\\com.aniwallshq.app-main-72:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxxhdpi_aniwallsicon_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxxhdpi/aniwallsicon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Predator\\.gradle\\daemon\\9.0-milestone-1\\com.aniwallshq.app-merged_res-71:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Predator\\.gradle\\daemon\\9.0-milestone-1\\com.aniwallshq.app-main-72:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-mdpi_aniwallsicon_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-mdpi/aniwallsicon_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxhdpi_aniwallsicon_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxhdpi/aniwallsicon_foreground.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xhdpi_aniwallsicon_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xhdpi/aniwallsicon_foreground.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-hdpi_aniwallsicon.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-hdpi/aniwallsicon.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-hdpi_aniwallsicon_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-hdpi/aniwallsicon_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-anydpi-v26_aniwallsicon_round.xml.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-anydpi-v26/aniwallsicon_round.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.aniwallshq.app-main-72:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aniwallshq.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.aniwallshq.app-main-72:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    }
+]

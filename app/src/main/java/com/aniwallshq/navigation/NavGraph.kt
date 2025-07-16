@@ -9,6 +9,7 @@ import com.aniwallshq.ui.screens.about.AboutScreen
 import com.aniwallshq.ui.screens.detail.DetailScreen
 import com.aniwallshq.ui.screens.detail.DetailViewModel
 import com.aniwallshq.ui.screens.home.HomeScreen
+import com.aniwallshq.ui.screens.settings.SettingsScreen
 
 @Composable
 fun NavGraph() {
@@ -20,5 +21,6 @@ fun NavGraph() {
             DetailScreen(viewModel)
         }
         composable("about") { AboutScreen() }
+        composable("settings") { SettingsScreen() }
     }
 }

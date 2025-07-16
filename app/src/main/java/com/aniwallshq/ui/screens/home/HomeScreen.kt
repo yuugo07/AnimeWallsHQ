@@ -11,6 +11,8 @@ import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -35,6 +37,7 @@ fun HomeScreen(
     val searchQuery by viewModel.searchQuery.collectAsState()
     val listState = rememberLazyGridState()
     var isSearchVisible by remember { mutableStateOf(false) }
+    var showMenu by remember { mutableStateOf(false) }
 
     val isAtEndOfList by remember {
         derivedStateOf {
@@ -72,8 +75,27 @@ fun HomeScreen(
                     IconButton(onClick = { isSearchVisible = !isSearchVisible }) {
                         Icon(Icons.Default.Search, contentDescription = "Search")
                     }
-                    IconButton(onClick = { navController.navigate("about") }) {
-                        Icon(Icons.Default.MoreVert, contentDescription = "About")
+                    IconButton(onClick = { showMenu = !showMenu }) {
+                        Icon(Icons.Default.MoreVert, contentDescription = "More")
+                    }
+                    DropdownMenu(
+                        expanded = showMenu,
+                        onDismissRequest = { showMenu = false }
+                    ) {
+                        DropdownMenuItem(
+                            text = { Text("About") },
+                            onClick = {
+                                navController.navigate("about")
+                                showMenu = false
+                            }
+                        )
+                        DropdownMenuItem(
+                            text = { Text("Settings") },
+                            onClick = {
+                                navController.navigate("settings")
+                                showMenu = false
+                            }
+                        )
                     }
                 }
             )

@@ -1,0 +1,492 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d102ccec50e486897f3d353926cb25df\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\20d85ce200666bf8e99bcc6d7d2de085\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\fc4e1fd778eaabbee2a0ac45f16c10a4\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4c8bb0aab870bc7b15b9109dd0cb7a69\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b9b7f04aa5901b73e9d37989b48e403a\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c51a2ce03a441227f266825983b2c7a4\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\081e3d60e4beb3c5bf0217dc9e8b32e4\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b28dbb69c9b069d8449750664b25c818\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\42aa3969171263f3b58f0924e8799c75\transformed\hilt-android-2.51.1\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cd74dfae056327e0b513542689e6c4b4\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b0e83154b970e1ac59755b70fde5d98a\transformed\coil-compose-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\63edc2ee8930d86c471998b41ed003e9\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6db3ad0ae05c10139f9a1e82c604ee11\transformed\coil-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\877707bd1b14b9a6d0345b77f3a677e1\transformed\coil-base-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6804b365136805d91b0f363abd73c806\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\664d76cb228d7af781c89a3e59b2dcd0\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\58e4c9e3b78c5c3ce251ba8022375e8a\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\361af734dd46c29854174565c1c07fb2\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\65bdc9a246d394412e6c508a1ee867ad\transformed\fragment-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e4854eb052b270ef1a094d34e0d69706\transformed\activity-1.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cf843f2486a0c081af8234cfde005d73\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\df71b83d270278bcc460c8dd8f38776f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\2501b67b8d1501aa5d8dc8d18c88b0a9\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\3551937ca577a3df95f56f6155304980\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\dddf9519886076db8057fe0232850e87\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\783a0c1feb8e7a04e058c831f1489b03\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ed146850cdddf6635924f072a6222af3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\787fd9cbaa94709260410a72cde7d1bd\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\87871884ba28f18a9bf07d657757afb8\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\910fe9a730683dd7bda64c07d715aeeb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\35f718b2d2f5e1eea8a31fe9b627451f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a9d8625f9de9548e4bd1e07fcd5c5d40\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73b39ecd6d55d78c1486725e7847c520\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a2dabdb9db10e7282e1f1994bcfc3b36\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\52040519686bad185544dd591bcf2923\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\028cf0531b04e40d63db090b918f6367\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a3555bd1c0aa7201df56a2752fefefc4\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\3d6e9b4d19fe4f3ee9c93e21d75b40e5\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\de814a09eb4b681496e21a07490213a3\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a7991cdc2d37fbc3392e82f24cd50a13\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4371c0b0becc93938b0fd4f736579547\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\aa14ab02e5bd3a1daded3494ca3ff013\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\abeeec192e0f67da4971fe0a398b90bd\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\eaab91c635430a71803ec013ed02543e\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c31918bd4fcb34c79117f40cdeb40c98\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\16e4c4d8e10ec25b6766de534b46572a\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\5887fbf41827ff17692254e4201aedbc\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4f3667990000575d856e27048271c3f8\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0e45aae538b840ab8ccac2164281f006\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f4cb40125a545ce8f9cbafbefbf85e9\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b7eda19215ce0edf00120e3fb4980d4a\transformed\lifecycle-livedata-core-ktx-2.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\31c49afcc66af75385dd5f311c4249cf\transformed\lifecycle-livedata-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d8f09581282f8ffd877cf535c237b10e\transformed\lifecycle-viewmodel-2.8.2\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1532c78e94522ab5d1e291fddd0515f8\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1078fba8be1f665e16528c7ec02ee2b7\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\82e403eb6e34e45cd5366dc81fbb712c\transformed\lifecycle-livedata-core-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d01c658dc0f89934e2960d30516330b1\transformed\lifecycle-viewmodel-ktx-2.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b3962edb6b860bbae683c816f79c6b47\transformed\lifecycle-viewmodel-savedstate-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\fb141865187e1b1a2f13a174bd20b444\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1dc202bbbff5b48e4619bedab70bef57\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bd2b0143fd7572f5bcc5b1bfdc1dd135\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\406681896b61cca2227c8f4e790aa2ab\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\665d608283ee20c50dc46e00d4b2134a\transformed\activity-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ab386f80d5f31277f5f45f4b544e57cd\transformed\activity-compose-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bb1e3cbb774ce06f5679a9c00ba5ea02\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\938cb484c1924c3c5a0d56ffca25e580\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\765eaea31658cbb3fb433537ad711ee3\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6ec77eefb212f98a12b8d2ee5c49a243\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b6692b9260f340d66dc815e5cba6486a\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\954691df80879ae2c780ae5b9cc1eade\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6f3f9baf1ec71d18d1e86a0655c592e9\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e5570e845757e44440e1e8d9d17bfb1b\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\983e4a02720a8c9f6a7d0e073904e8b4\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e3ed03a07a9bc90a09d03299cc35a63a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b8fbb818df4e24e396c471b00facd060\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\66b79c8d8214ed09238fb75776a53fb0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\79c13acf2a47cb79b16493662125f584\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\469dfdbd23b9e679c832988ce8b37555\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c645691a8d602b64b646b3275d7f7293\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b1940a0f201ab911ef0f5407c2eb52cf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e4a9ed0fdbdb2c9dd8d9e61e7a03b763\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\87cffc4de2cbb9ebac2cfbb1a4533494\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0aa96f5316b8098d3dcb3ded4b4bb208\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ced786ceb5b402889ce616d7ec937974\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bdc50c22bd4a61037445db72b12955d2\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0cff8531e914d3d0be3128cd89c8f158\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:7:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:8:22-76
+application
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:10:5-43:19
+INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:10:5-43:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b28dbb69c9b069d8449750664b25c818\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b28dbb69c9b069d8449750664b25c818\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cd74dfae056327e0b513542689e6c4b4\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cd74dfae056327e0b513542689e6c4b4\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\66b79c8d8214ed09238fb75776a53fb0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\66b79c8d8214ed09238fb75776a53fb0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b1940a0f201ab911ef0f5407c2eb52cf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b1940a0f201ab911ef0f5407c2eb52cf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:13:9-54
+	android:roundIcon
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:15:9-55
+	tools:targetApi
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:14:9-44
+	android:allowBackup
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:18:9-50
+	android:dataExtractionRules
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:12:9-65
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:19:9-48
+activity#com.aniwallshq.MainActivity
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:exported
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:24:13-36
+	android:theme
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:28:27-74
+provider#androidx.core.content.FileProvider
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:grantUriPermissions
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:37:13-47
+	android:authorities
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:35:13-62
+	android:exported
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:34:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:38:13-40:54
+	android:resource
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:40:17-51
+	android:name
+		ADDED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml:39:17-67
+uses-sdk
+INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d102ccec50e486897f3d353926cb25df\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d102ccec50e486897f3d353926cb25df\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\20d85ce200666bf8e99bcc6d7d2de085\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\20d85ce200666bf8e99bcc6d7d2de085\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\fc4e1fd778eaabbee2a0ac45f16c10a4\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\fc4e1fd778eaabbee2a0ac45f16c10a4\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4c8bb0aab870bc7b15b9109dd0cb7a69\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4c8bb0aab870bc7b15b9109dd0cb7a69\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b9b7f04aa5901b73e9d37989b48e403a\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b9b7f04aa5901b73e9d37989b48e403a\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c51a2ce03a441227f266825983b2c7a4\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c51a2ce03a441227f266825983b2c7a4\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\081e3d60e4beb3c5bf0217dc9e8b32e4\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\081e3d60e4beb3c5bf0217dc9e8b32e4\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b28dbb69c9b069d8449750664b25c818\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b28dbb69c9b069d8449750664b25c818\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\42aa3969171263f3b58f0924e8799c75\transformed\hilt-android-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\42aa3969171263f3b58f0924e8799c75\transformed\hilt-android-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cd74dfae056327e0b513542689e6c4b4\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cd74dfae056327e0b513542689e6c4b4\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b0e83154b970e1ac59755b70fde5d98a\transformed\coil-compose-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b0e83154b970e1ac59755b70fde5d98a\transformed\coil-compose-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\63edc2ee8930d86c471998b41ed003e9\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\63edc2ee8930d86c471998b41ed003e9\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6db3ad0ae05c10139f9a1e82c604ee11\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6db3ad0ae05c10139f9a1e82c604ee11\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\877707bd1b14b9a6d0345b77f3a677e1\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\877707bd1b14b9a6d0345b77f3a677e1\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6804b365136805d91b0f363abd73c806\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6804b365136805d91b0f363abd73c806\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\664d76cb228d7af781c89a3e59b2dcd0\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\664d76cb228d7af781c89a3e59b2dcd0\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\58e4c9e3b78c5c3ce251ba8022375e8a\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\58e4c9e3b78c5c3ce251ba8022375e8a\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\361af734dd46c29854174565c1c07fb2\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\361af734dd46c29854174565c1c07fb2\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\65bdc9a246d394412e6c508a1ee867ad\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\65bdc9a246d394412e6c508a1ee867ad\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e4854eb052b270ef1a094d34e0d69706\transformed\activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e4854eb052b270ef1a094d34e0d69706\transformed\activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cf843f2486a0c081af8234cfde005d73\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\cf843f2486a0c081af8234cfde005d73\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\df71b83d270278bcc460c8dd8f38776f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\df71b83d270278bcc460c8dd8f38776f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\2501b67b8d1501aa5d8dc8d18c88b0a9\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\2501b67b8d1501aa5d8dc8d18c88b0a9\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\3551937ca577a3df95f56f6155304980\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\3551937ca577a3df95f56f6155304980\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\dddf9519886076db8057fe0232850e87\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\dddf9519886076db8057fe0232850e87\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\783a0c1feb8e7a04e058c831f1489b03\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\783a0c1feb8e7a04e058c831f1489b03\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ed146850cdddf6635924f072a6222af3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ed146850cdddf6635924f072a6222af3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\787fd9cbaa94709260410a72cde7d1bd\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\787fd9cbaa94709260410a72cde7d1bd\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\87871884ba28f18a9bf07d657757afb8\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\87871884ba28f18a9bf07d657757afb8\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\910fe9a730683dd7bda64c07d715aeeb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\910fe9a730683dd7bda64c07d715aeeb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\35f718b2d2f5e1eea8a31fe9b627451f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\35f718b2d2f5e1eea8a31fe9b627451f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a9d8625f9de9548e4bd1e07fcd5c5d40\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a9d8625f9de9548e4bd1e07fcd5c5d40\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73b39ecd6d55d78c1486725e7847c520\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73b39ecd6d55d78c1486725e7847c520\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a2dabdb9db10e7282e1f1994bcfc3b36\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a2dabdb9db10e7282e1f1994bcfc3b36\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\52040519686bad185544dd591bcf2923\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\52040519686bad185544dd591bcf2923\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\028cf0531b04e40d63db090b918f6367\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\028cf0531b04e40d63db090b918f6367\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a3555bd1c0aa7201df56a2752fefefc4\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a3555bd1c0aa7201df56a2752fefefc4\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\3d6e9b4d19fe4f3ee9c93e21d75b40e5\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\3d6e9b4d19fe4f3ee9c93e21d75b40e5\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\de814a09eb4b681496e21a07490213a3\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\de814a09eb4b681496e21a07490213a3\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a7991cdc2d37fbc3392e82f24cd50a13\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\a7991cdc2d37fbc3392e82f24cd50a13\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4371c0b0becc93938b0fd4f736579547\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4371c0b0becc93938b0fd4f736579547\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\aa14ab02e5bd3a1daded3494ca3ff013\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\aa14ab02e5bd3a1daded3494ca3ff013\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\abeeec192e0f67da4971fe0a398b90bd\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\abeeec192e0f67da4971fe0a398b90bd\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\eaab91c635430a71803ec013ed02543e\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\eaab91c635430a71803ec013ed02543e\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c31918bd4fcb34c79117f40cdeb40c98\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c31918bd4fcb34c79117f40cdeb40c98\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\16e4c4d8e10ec25b6766de534b46572a\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\16e4c4d8e10ec25b6766de534b46572a\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\5887fbf41827ff17692254e4201aedbc\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\5887fbf41827ff17692254e4201aedbc\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4f3667990000575d856e27048271c3f8\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\4f3667990000575d856e27048271c3f8\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0e45aae538b840ab8ccac2164281f006\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0e45aae538b840ab8ccac2164281f006\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f4cb40125a545ce8f9cbafbefbf85e9\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f4cb40125a545ce8f9cbafbefbf85e9\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b7eda19215ce0edf00120e3fb4980d4a\transformed\lifecycle-livedata-core-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b7eda19215ce0edf00120e3fb4980d4a\transformed\lifecycle-livedata-core-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\31c49afcc66af75385dd5f311c4249cf\transformed\lifecycle-livedata-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\31c49afcc66af75385dd5f311c4249cf\transformed\lifecycle-livedata-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d8f09581282f8ffd877cf535c237b10e\transformed\lifecycle-viewmodel-2.8.2\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d8f09581282f8ffd877cf535c237b10e\transformed\lifecycle-viewmodel-2.8.2\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1532c78e94522ab5d1e291fddd0515f8\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1532c78e94522ab5d1e291fddd0515f8\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1078fba8be1f665e16528c7ec02ee2b7\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1078fba8be1f665e16528c7ec02ee2b7\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\82e403eb6e34e45cd5366dc81fbb712c\transformed\lifecycle-livedata-core-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\82e403eb6e34e45cd5366dc81fbb712c\transformed\lifecycle-livedata-core-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d01c658dc0f89934e2960d30516330b1\transformed\lifecycle-viewmodel-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\d01c658dc0f89934e2960d30516330b1\transformed\lifecycle-viewmodel-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b3962edb6b860bbae683c816f79c6b47\transformed\lifecycle-viewmodel-savedstate-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b3962edb6b860bbae683c816f79c6b47\transformed\lifecycle-viewmodel-savedstate-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\fb141865187e1b1a2f13a174bd20b444\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\fb141865187e1b1a2f13a174bd20b444\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1dc202bbbff5b48e4619bedab70bef57\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\1dc202bbbff5b48e4619bedab70bef57\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bd2b0143fd7572f5bcc5b1bfdc1dd135\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bd2b0143fd7572f5bcc5b1bfdc1dd135\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\406681896b61cca2227c8f4e790aa2ab\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\406681896b61cca2227c8f4e790aa2ab\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\665d608283ee20c50dc46e00d4b2134a\transformed\activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\665d608283ee20c50dc46e00d4b2134a\transformed\activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ab386f80d5f31277f5f45f4b544e57cd\transformed\activity-compose-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ab386f80d5f31277f5f45f4b544e57cd\transformed\activity-compose-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bb1e3cbb774ce06f5679a9c00ba5ea02\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bb1e3cbb774ce06f5679a9c00ba5ea02\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\938cb484c1924c3c5a0d56ffca25e580\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\938cb484c1924c3c5a0d56ffca25e580\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\765eaea31658cbb3fb433537ad711ee3\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\765eaea31658cbb3fb433537ad711ee3\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6ec77eefb212f98a12b8d2ee5c49a243\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6ec77eefb212f98a12b8d2ee5c49a243\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b6692b9260f340d66dc815e5cba6486a\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b6692b9260f340d66dc815e5cba6486a\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\954691df80879ae2c780ae5b9cc1eade\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\954691df80879ae2c780ae5b9cc1eade\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6f3f9baf1ec71d18d1e86a0655c592e9\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\6f3f9baf1ec71d18d1e86a0655c592e9\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e5570e845757e44440e1e8d9d17bfb1b\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e5570e845757e44440e1e8d9d17bfb1b\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\983e4a02720a8c9f6a7d0e073904e8b4\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\983e4a02720a8c9f6a7d0e073904e8b4\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e3ed03a07a9bc90a09d03299cc35a63a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e3ed03a07a9bc90a09d03299cc35a63a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b8fbb818df4e24e396c471b00facd060\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b8fbb818df4e24e396c471b00facd060\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\66b79c8d8214ed09238fb75776a53fb0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\66b79c8d8214ed09238fb75776a53fb0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\79c13acf2a47cb79b16493662125f584\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\79c13acf2a47cb79b16493662125f584\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\469dfdbd23b9e679c832988ce8b37555\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\469dfdbd23b9e679c832988ce8b37555\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c645691a8d602b64b646b3275d7f7293\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\c645691a8d602b64b646b3275d7f7293\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b1940a0f201ab911ef0f5407c2eb52cf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\b1940a0f201ab911ef0f5407c2eb52cf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e4a9ed0fdbdb2c9dd8d9e61e7a03b763\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\e4a9ed0fdbdb2c9dd8d9e61e7a03b763\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\87cffc4de2cbb9ebac2cfbb1a4533494\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\87cffc4de2cbb9ebac2cfbb1a4533494\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0aa96f5316b8098d3dcb3ded4b4bb208\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0aa96f5316b8098d3dcb3ded4b4bb208\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ced786ceb5b402889ce616d7ec937974\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\ced786ceb5b402889ce616d7ec937974\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bdc50c22bd4a61037445db72b12955d2\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\bdc50c22bd4a61037445db72b12955d2\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0cff8531e914d3d0be3128cd89c8f158\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\0cff8531e914d3d0be3128cd89c8f158\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Courses\Projects\AnimeWallsHQ\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\66b79c8d8214ed09238fb75776a53fb0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\66b79c8d8214ed09238fb75776a53fb0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\38c5840e505e6df49ec7ddfa4d843130\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.aniwallshq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.aniwallshq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\73c0078ea5ef0c3887a426546064c245\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\7c530b74a2d8a8aac4475b5c907c229b\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\80b7749556f0fd1676c979d07bd3741c\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Predator\.gradle\caches\9.0-milestone-1\transforms\9f55ab0cb82c721599f74f6342ea8dc7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

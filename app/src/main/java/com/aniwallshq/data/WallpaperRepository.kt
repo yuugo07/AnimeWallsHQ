@@ -6,6 +6,8 @@ import com.aniwallshq.data.local.model.WallpaperEntity
 import kotlinx.coroutines.flow.Flow
 import java.util.regex.Pattern
 import javax.inject.Inject
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 class WallpaperRepository @Inject constructor(
     private val apiService: ApiService,
@@ -44,8 +46,8 @@ class WallpaperRepository @Inject constructor(
         }
     }
 
-    private suspend fun getFileUrl(fileId: String): String {
-        return try {
+    private suspend fun getFileUrl(fileId: String): String = withContext(Dispatchers.IO) {
+        try {
             val response = apiService.getFile(fileId)
             "https://api.telegram.org/file/bot<YOUR_TOKEN>/${response.result.filePath}"
         } catch (e: Exception) {
