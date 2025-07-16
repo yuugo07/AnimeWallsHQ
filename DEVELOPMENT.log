@@ -30,23 +30,35 @@
 
 ## Phase 3: UI/UX Development (The Look & Feel ✨)
 
+### Completed Actions:
+- **Theme & Styling:**
+    - Created `Theme.kt`, `Color.kt`, and `Type.kt` to define the app's theme.
+- **UI Screens:**
+    - Created `HomeScreen.kt` with a basic `Scaffold` and `LazyVerticalGrid`.
+    - Created `HomeViewModel.kt` to manage the home screen's state.
+    - Created `DetailScreen.kt` as a placeholder.
+    - Created `AboutScreen.kt` as a placeholder.
+- **Navigation:**
+    - Created `NavGraph.kt` to define the app's navigation.
+    - Updated `MainActivity.kt` to use the `NavGraph`.
+
+## Phase 4: Feature Implementation & Logic (Connecting the Wires 🔌)
+
 ### Current Action:
-- Starting the UI/UX development.
+- Starting the feature implementation.
 
 ### Plan:
-1.  **Theme & Styling:**
-    -   Implement the base app theme using `MaterialTheme`.
-    -   Set up dynamic color schemes.
-    -   Create `Theme.kt`.
-2.  **Home Screen:**
-    -   Create `HomeScreen.kt`.
-    -   Implement `Scaffold` and `LazyVerticalGrid`.
-    -   Add a search `TextField`.
-3.  **Detail Screen:**
-    -   Create `DetailScreen.kt`.
-    -   Use `AsyncImage` for the wallpaper.
-    -   Add "Download" and "Set as Wallpaper" buttons.
-4.  **About Screen:**
-    -   Create `AboutScreen.kt`.
+1.  **Data Fetching & Parsing:**
+    -   Implement the data fetching logic in the `WallpaperRepository`.
+    -   Parse the JSON response from the Telegram API.
+    -   Extract the required data (image URLs, anime name).
+2.  **State Management:**
+    -   Implement state management in the `HomeViewModel` using `StateFlow`.
+3.  **Core Functionality:**
+    -   Implement search functionality.
+    -   Implement pagination.
+    -   Implement download functionality.
+    -   Implement "Set as Wallpaper" functionality.
+    -   Implement theme toggling.
 
 ---
