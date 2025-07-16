@@ -1,73 +1,44 @@
 # AnimeWallsHQ Development Log
 
-## Phase 1: Foundation & Setup (The Groundwork)
-
-### Completed Actions:
-- Initialized the development log.
-- Configured `app/build.gradle.kts`:
-    - Set Java version to 17.
-    - Updated all major dependencies to their latest stable versions (Compose, Retrofit, Coil, Room, etc.).
-- Initialized a local Git repository.
-- Configured Git user details.
-- Created the initial commit.
-- Pushed the initial commit to the new GitHub repository: https://github.com/yuugo07/AnimeWallsHQ
-
 ## Phase 2: Backend & Data Layer (The Engine Room ⚙️)
 
+### Current Actions:
+- **Cloudflare Worker Setup:**
+  - **Objective:** Create a secure proxy to handle Telegram API requests, keeping the bot token secret.
+  - **Manual Steps for User:**
+    1. Go to your Cloudflare dashboard and create a new Worker.
+    2. Name the worker (e.g., `animewalls-proxy`).
+    3. In the worker's settings, navigate to "Variables" and add a new "Secret Variable".
+    4. Name the secret `TELEGRAM_BOT_TOKEN` and paste your Telegram Bot Token as the value.
+    5. I will provide the worker script to be pasted into the Cloudflare Worker editor.
+
+- **Telegram Bot Setup:**
+  - **Objective:** Create a bot and get the necessary credentials.
+  - **Manual Steps for User:**
+    1. Open Telegram and search for `@BotFather`.
+    2. Start a chat and use the `/newbot` command.
+    3. Follow the prompts to name your bot. You will receive a **Bot Token**.
+    4. Add your new bot as an administrator to your wallpaper channel with "Read Messages" permission.
+    5. Get your channel's ID. You can often get this by using another bot like `@userinfobot` and forwarding a message from the channel to it. The ID will be a negative number (e.g., `-1001234567890`).
+
 ### Completed Actions:
+- Created the Cloudflare worker script in `worker.js`.
 - **Room Database:**
     - Defined `WallpaperEntity` in `data/local/model/WallpaperEntity.kt`.
     - Created `WallpaperDao` in `data/local/dao/WallpaperDao.kt`.
     - Created `AppDatabase` in `data/local/AppDatabase.kt`.
 - **Retrofit:**
     - Created `ApiService` interface in `data/remote/ApiService.kt`.
+    - Created `TelegramResponse` and related models in `data/remote/model/TelegramResponse.kt`.
 - **Repository:**
     - Created `WallpaperRepository` in `data/WallpaperRepository.kt`.
+
+### Completed Actions:
 - **Dependency Injection (Hilt):**
-    - Added Hilt dependencies to `build.gradle.kts` files.
-    - Annotated `AnimeWallsHQApplication` with `@HiltAndroidApp`.
+    - Configured `app/build.gradle.kts` to read secrets from `local.properties`.
     - Created `AppModule` to provide dependencies for Database, DAO, and ApiService.
+    - Created `AnimeWallsHQApplication` and updated `AndroidManifest.xml`.
 
-## Phase 3: UI/UX Development (The Look & Feel ✨)
-
-### Completed Actions:
-- **Theme & Styling:**
-    - Created `Theme.kt`, `Color.kt`, and `Type.kt` to define the app's theme.
-- **UI Screens:**
-    - Created `HomeScreen.kt` with a basic `Scaffold` and `LazyVerticalGrid`.
-    - Created `HomeViewModel.kt` to manage the home screen's state.
-    - Created `DetailScreen.kt` as a placeholder.
-    - Created `AboutScreen.kt` as a placeholder.
-- **Navigation:**
-    - Created `NavGraph.kt` to define the app's navigation.
-    - Updated `MainActivity.kt` to use the `NavGraph`.
-
-## Phase 4: Feature Implementation & Logic (Connecting the Wires 🔌)
-
-### Completed Actions:
-- **Data Fetching & Parsing:**
-    - Created data models for the Telegram API response.
-    - Implemented data fetching and parsing logic in `WallpaperRepository`.
-- **State Management:**
-    - Implemented state management in `HomeViewModel` using `StateFlow`.
-- **UI:**
-    - Connected `HomeScreen` to `HomeViewModel` to display wallpapers.
-    - Added a search `TextField` to the `HomeScreen`.
-
-### Completed Actions:
-- **Pagination:**
-    - Implemented pagination in `HomeScreen` to fetch more wallpapers on scroll.
-- **Detail Screen:**
-    - Created `DetailViewModel` to fetch wallpaper details.
-    - Implemented `DetailScreen` to display the full-resolution wallpaper.
-- **About Screen:**
-    - Implemented `AboutScreen` with developer info and Telegram link.
-
-### Completed Actions:
-- **Core Functionality:**
-    - Implemented download functionality using `DownloadManager`.
-    - Implemented "Set as Wallpaper" functionality using `WallpaperManager`.
-
-## Project Complete!
-
-The AnimeWallsHQ application is now feature-complete based on the initial specifications. All phases, from foundation and setup to feature implementation, have been addressed. The app now supports browsing, searching, downloading, and setting wallpapers, with a clean, dynamic UI.
+### Next Steps:
+- Implement the data fetching logic in the `WallpaperRepository`.
+- Commit and push changes to GitHub.

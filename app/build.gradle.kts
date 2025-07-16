@@ -5,6 +5,15 @@ plugins {
     id("com.google.dagger.hilt.android")
 }
 
+import java.util.Properties
+import java.io.FileInputStream
+
+val localProperties = Properties()
+val localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localProperties.load(FileInputStream(localPropertiesFile))
+}
+
 android {
     namespace = "com.aniwallshq"
     compileSdk = 34
@@ -20,6 +29,9 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        buildConfigField("String", "CLOUDFLARE_WORKER_URL", localProperties.getProperty("CLOUDFLARE_WORKER_URL", "\"\""))
+        buildConfigField("String", "TELEGRAM_CHANNEL_ID", localProperties.getProperty("TELEGRAM_CHANNEL_ID", "\"\""))
     }
 
     buildTypes {
